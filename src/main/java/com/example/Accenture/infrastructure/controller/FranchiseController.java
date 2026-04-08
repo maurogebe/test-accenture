@@ -27,7 +27,7 @@ public class FranchiseController {
     
     private final FranchiseService franchiseService;
     
-    @Operation(summary = "Create a product", description = "Creates a new product under a branch")
+    @Operation(summary = "Create a franchise", description = "Creates a new franchise")
     @ApiResponses(value = {
         @ApiResponse(responseCode = "201", description = "Product created successfully"),
         @ApiResponse(responseCode = "404", description = "Branch not found",
